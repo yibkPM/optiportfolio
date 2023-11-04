@@ -12,7 +12,7 @@ import numpy as np
 import requests
 from PIL import Image
 import matplotlib.pyplot as plt
-plt.style.use('default')
+plt.style.use("seaborn-v0_8-deep")
 
 st.title('Portfolio Optimization - OUISTITI CAPITAL')
 st.write('La singerie au coeur de la finance')
@@ -118,6 +118,7 @@ if assets:
     from pypfopt import risk_models
     from pypfopt import expected_returns
     from pypfopt import plotting
+    plt.style.use("seaborn-v0_8-deep")
     moy = expected_returns.mean_historical_return(data)
     S = risk_models.sample_cov(data)
     # Optimization of the Sharpe Ratio
