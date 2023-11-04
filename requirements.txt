@@ -5,5 +5,5 @@ matplotlib
 yfinance
 Pillow
 requests
-PyPortfolioOpt
+pyPortfolioOpt
 datetime
