@@ -5,6 +5,7 @@ matplotlib
 yfinance
 Pillow
 requests
+pypfopt
 pyPortfolioOpt
 datetime
 seaborn
