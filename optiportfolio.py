@@ -12,6 +12,7 @@ import numpy as np
 import requests
 from PIL import Image
 import matplotlib.pyplot as plt
+plt.style.use('default')
 
 st.title('Portfolio Optimization - OUISTITI CAPITAL')
 st.write('La singerie au coeur de la finance')
