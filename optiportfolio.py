@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 st.title('Portfolio Optimization - OUISTITI CAPITAL')
 st.write('La singerie au coeur de la finance')
 
-image = Image.open("C:/Users/ibour/Downloads/360_F_568271862_YRGdNXT2ft0Xzjw8vf6CmkE8nQXbTfKJ.jpg")
+image = Image.open("360_F_568271862_YRGdNXT2ft0Xzjw8vf6CmkE8nQXbTfKJ.jpg")
 
 st.image(image, caption='Ouistiti Capital Analyst')
 
