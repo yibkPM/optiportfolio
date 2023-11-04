@@ -3,7 +3,7 @@ pandas
 numpy
 matplotlib
 yfinance
-PIL
+Pillow
 requests
-pypfopt
+PyPortfolioOpt
 datetime
